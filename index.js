@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const path = require('path');
 
@@ -43,7 +45,7 @@ inquirer.prompt(questions).then(answers => {
 
 async function go(answers) {
 	rimraf(tempPath, async ()=> {
-		await download(answers.url, 'temp');
+		await download(answers.url, tempPath);
 		readFiles(answers);
 	})
 }

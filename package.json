@@ -9,6 +9,8 @@
   },
   "author": "tsl143",
   "license": "MIT",
+  "preferGlobal": true,
+  "bin": "./index.js",
   "dependencies": {
     "checksum": "^0.1.1",
     "download": "^7.1.0",
