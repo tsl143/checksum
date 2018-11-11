@@ -1,0 +1,19 @@
+{
+  "name": "shachecker",
+  "version": "1.0.0",
+  "description": "Check the checksum of file from url",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "tsl143",
+  "license": "MIT",
+  "dependencies": {
+    "checksum": "^0.1.1",
+    "download": "^7.1.0",
+    "inquirer": "^6.2.0",
+    "recursive-readdir": "^2.2.2",
+    "rimraf": "^2.6.2"
+  }
+}
